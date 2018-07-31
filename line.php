@@ -14,7 +14,7 @@ include "config.php";
       while($row = $result->fetch_assoc()) {
         $jsonArrayItem = array();
         $jsonArrayItem['label'] = $row['Name'];
-        $jsonArrayItem['value'] = $row['BoardingfeeforS3'];
+        $jsonArrayItem['value'] = $row['Numberofstudents'];
         array_push($jsonArray, $jsonArrayItem);
       }
     }
