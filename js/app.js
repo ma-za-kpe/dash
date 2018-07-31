@@ -43,13 +43,7 @@ $(function(){
                {
                    "label": "Taibah International School",
                    "value": "1600000"
-               },{
-            //Setting data as vline data
-            "vline": "true",
-            //Adding label
-            "label": "970000",
-            "linePosition": "900000"
-        },
+               },
                {
                    "label": "St Mary.s College Kisubi",
                    "value": "900000"
@@ -72,10 +66,11 @@ $(function(){
                }],
                "trendlines": [{
           "line": [{
-            "startvalue": "700000",
-            "color": "#222222",
+            "startvalue": "790000",
+            "color": "#032d4f",
+            "thickness": "4",
             "valueOnRight": "1",
-            "displayvalue": "Monthly Target"
+            "displayvalue": "790000"
           }]
         }]
 

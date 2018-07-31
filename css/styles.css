@@ -1,6 +1,12 @@
-#cht{
+.cht{
   margin-top: 20px;
 }
-#dash-nav{
+#header{
+  background-color: #032542;
+}
+#aside{
+  background-color: #032542;
+}
+#body{
   margin-top: 20px;
 }
