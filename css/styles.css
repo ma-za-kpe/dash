@@ -1,19 +1,6 @@
-.header{
-  background-color: #104368;
-  height: 100px;
-  font-size: 20px;
-}
-#aside{
-  background-color: #0f4166;
-}
-
-#main{
-  background-color: #b8cbd8;
-}
-
-#body{
+#cht{
   margin-top: 20px;
 }
-#chart-container{
-  margin-bottom: 20px;
+#dash-nav{
+  margin-top: 20px;
 }

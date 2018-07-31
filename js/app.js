@@ -13,7 +13,7 @@ $(function(){
         "numDivLines" : "8",
         "rotatevalues": "1",
         "theme": "zune",
-        "bgColor": "#89cdf9",
+        "bgColor": "#ffffff",
         "placeLabelsInside": "1",
         "showValues": "0",
 
@@ -21,7 +21,7 @@ $(function(){
       apiChart = new FusionCharts({
         type: 'bar2d',
         renderAt: 'chart-container',
-        width: '950',
+        width: '750',
         height: '350',
         dataFormat: 'json',
         dataSource: {
