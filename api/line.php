@@ -7,15 +7,15 @@ include("../config.php");
       die("Connection failed: " . $conn->connect_error);
     }
 
-       $query = "SELECT * FROM sama1";
+       $query = "SELECT * FROM sama2";
        $result = $conn->query($query);
 
     $jsonArray = array();
     if ($result->num_rows > 0) {
       while($row = $result->fetch_assoc()) {
         $jsonArrayItem = array();
-        $jsonArrayItem['label'] = $row['Dateschoolenrolled'];
-        $jsonArrayItem['value'] = $row['Numberofstudents'];
+        $jsonArrayItem['label'] = $row['Date_school_enrolled'];
+        $jsonArrayItem['value'] = $row['Number_of_students'];
         array_push($jsonArray, $jsonArrayItem);
       }
     }

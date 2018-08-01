@@ -22,6 +22,7 @@ $(function(){
         "anchorRadius": "4",
         "anchorBorderThickness": "2",
         "theme" : "fint"
+        "lineColor" : "#222222"
       };
       apiChart = new FusionCharts({
         type: 'line',
