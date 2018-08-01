@@ -1,12 +1,12 @@
 $(function(){
   $.ajax({
-    url: 'http://localhost/dash/api/line.php',
+    url: 'http://localhost/dash/api/col.php',
     type: 'GET',
     success : function(data) {
       chartData = data;
       var chartProperties = {
-        "caption": "Number of schools enrolled",
-        "xAxisName": "Time(months)",
+        "caption": "Size of schools based on student numbers",
+        "xAxisName": "School",
         "yAxisName": "Nmmber of students",
         "yAxisMaxValue": "800",
         "yAxisMinValue": "0",
@@ -17,21 +17,16 @@ $(function(){
         "placeLabelsInside": "1",
         "showValues": "0",
         "plotSpacePercent":"320",
-        "baseFontSize": "10",
-        "showvalues": "0",
-        "anchorRadius": "4",
-        "anchorBorderThickness": "2",
-        "theme" : "fint"
+        "baseFontSize": "10"
       };
       apiChart = new FusionCharts({
-        type: 'line',
-        renderAt: '3chart-container',
+        type: 'column2d',
+        renderAt: '2chart-container',
         width: '850',
         height: '350',
         dataFormat: 'json',
         dataSource: {
-          "chart": chartProperties,
-
+      "chart": chartProperties,
       "data": chartData
 
          }

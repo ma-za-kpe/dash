@@ -1,7 +1,7 @@
 <?php
 
 ini_set('display_errors', 'On');
-include "config.php";
+include("../config.php");
     if ($conn->connect_error) {
       die("Connection failed: " . $conn->connect_error);
     }

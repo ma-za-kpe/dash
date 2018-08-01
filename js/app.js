@@ -1,6 +1,6 @@
 $(function(){
   $.ajax({
-    url: 'http://localhost/dash/column1.php',
+    url: 'http://localhost/dash/api/column1.php',
     type: 'GET',
     success : function(data) {
       chartData = data;
