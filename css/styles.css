@@ -1,19 +1,114 @@
-.cht{
+.cht {
   margin-top: 20px;
 }
 
-.col{
+.col {
   margin-top: 20px;
 }
-.line{
+
+.line {
   margin-top: 20px;
 }
-#header{
+
+#header {
   background-color: #032542;
 }
-#aside{
+
+#aside {
   background-color: #032542;
 }
-#body{
+
+#body {
   margin-top: 20px;
+}
+
+.ratioLegend {
+  padding: 20px;
+  width: 700px;
+  height: 300px;
+  margin: 20px auto;
+  border: 2px solid #000000;
+}
+
+#caption {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.legend {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  border: 0px solid #000000;
+}
+
+#O-level {
+  margin-left: 250px;
+  width: 20px;
+  height: 20px;
+  background-color: #fcb400;
+  float: left;
+  border: 0px solid #000000;
+}
+#level {
+  margin-right: 10px;
+  float: left;
+  border: 0px solid #000000;
+}
+#A-level {
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+  background-color: #fc9300;
+  float: left;
+  border: 0px solid #000000;
+}
+
+.ol {
+  background-color: yellow;
+  border: 0px solid #000000;
+  width: 50px;
+  height: auto;
+}
+
+#OA {
+  float: right;
+  border: 0px solid #000000;
+}
+#ratio{
+  padding-top: 10px;
+  border: 0px solid #000000;
+  margin-top: -35px;
+  background: gray;
+  height: 120px;
+  width: 800px;
+}
+#o{
+  background-color: #fcb400;
+
+  border: 0px solid #000000;
+  width: 200px;
+  height:90px;
+}
+#o span{
+  color: #000;
+  margin-top: -20px;
+  font-size: 50px;
+  margin-left: 80px;
+}
+#a{
+  margin-top: -90px;
+  float: right;
+  margin-right: 10px;
+  border: 0px solid #000000;
+  width: 280px;
+  height:90px;
+  background-color: #fc9300;
+
+}
+#a span{
+  font-size: 50px;
+  margin-top: -25px;
+  margin-left: 160px;
+  margin-top: 120px;
+  margin-left: 20px;
 }
